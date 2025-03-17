@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem; /* Changed from calc(10px + 2vmin) to rem for consistency */
+  color: #ffffff; /* Increased contrast */
+}
+
+.App-link {
+  color: #4287f5; /* Darker blue for better readability */
+  font-weight: bold; /* Make links stand out */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .App-logo {
+    animation: none;
+  }
+}

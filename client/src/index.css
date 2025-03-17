@@ -1,0 +1,23 @@
+/* Import Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .card {
+        @apply bg-white shadow-md rounded-lg p-4;
+    }
+
+    .input-field {
+        @apply border border-gray-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-500;
+    }
+
+    /* Added a container class for responsive centering */
+    .container {
+        @apply max-w-7xl mx-auto px-4;
+    }
+}
